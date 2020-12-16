@@ -1,0 +1,62 @@
+#game div {
+  border: 6px solid black;
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+}
+
+/* .red, .blue, .purple,.orange, .green {
+  background-image: url(IMG-0921.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+} */
+
+h1 {
+  font-family: Georgia, sans-serif;
+  font-size: 5em;
+  letter-spacing: -2px;
+  text-align: center;
+  color:red;
+	-webkit-text-stroke: 2px black;
+}
+
+body {
+  background-color: rgb(66, 63, 63);
+}
+
+.button {
+  background-color: rgb(247, 19, 19);
+  font-size: xx-large;
+  border-radius: 12px;
+  
+  }
+
+  #btn {
+    text-align: center;
+  }
+
+  .alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
